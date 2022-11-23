@@ -1,0 +1,87 @@
+/*CSS RESET*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+code {
+	color: #80ed99;
+}
+
+body {
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+.logo {
+  height: 8vh;
+  width: 8vh;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#bg-nav {
+	background-color: black;
+}
+
+#navbarNav {
+	text-transform: uppercase;
+}
+
+#bg-image {
+	background-image: url(./image/jazzrell-bg.jpg);
+  	background-repeat : no-repeat;
+  	background-size: cover;
+  	background-position: 75% 50%;
+  	background-attachment: scroll;
+}
+
+#section-bg {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+#picture {
+	height: 60vh;
+	width: 60vh;
+	border: 5px solid #219ebc;
+}
+
+#form-bg {
+	background-color: #6096ba;
+}
+
+#project-section {
+	background-color: #adb5bd;
+}
+
+#tools {
+	list-style: none;
+}
+
+#container-tools {
+	background-color: #354f52;
+ padding-bottom: 150px;
+}
+
+#img-logo {
+	height: 15vh;
+	width: 15vh;
+}
+
+#bg-tools {
+	background-color: #2f3e46;
+}
+
+
+
+
+
+/*Responsive for screen size*/
+@media only screen and (max-width: 991px) {
+ 
+	 #section-bg {
+		background-color: rgba(0, 0, 0, .9);
+	}
+
+}
+
