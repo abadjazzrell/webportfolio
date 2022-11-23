@@ -4,6 +4,9 @@
 	<meta charset="utf-8">
 	<title>Bootstrap Components</title>
 
+	<!-- Social Media Icon -->
+	<script src="https://kit.fontawesome.com/8ea8b4f148.js" crossorigin="anonymous"></script>
+	
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,10 +38,13 @@
 					<a class="nav-link ml-5 text-light" href="#">About me<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item ml-5">
-					<a class="nav-link text-light" href="#">Projects</a>
+					<a class="nav-link text-light" href="#project-section">Projects</a>
 				</li>
 				<li class="nav-item ml-5">
-					<a class="nav-link text-light" href="#">Tools</a>
+					<a class="nav-link text-light" href="#core-tools">Tools</a>
+				</li>
+				<li class="nav-item ml-5">
+					<a class="nav-link text-light" href="#contacts">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -62,7 +68,9 @@
 							<h5 class="text-primary text-left ml-4"><code>&lt;&#47;</code>Hi, my name is<code>&gt;</code></h5>
 							<h1>Jazzrell Frian P. Abad</h1>
 							<h3 class="text-warning mb-5">Full-stack Web Developer</h3>
-							<p class="lead text-justify">Passionate about Full-Stack Development, skilled and experienced in HTML, CSS, Bootstrap Framework.</p>
+							<p class="lead text-justify">Hello! My name is Jazzrell and I enjoy creating things that live on the internet. My interest in web development started way back a few years ago and one of the Bootcampers of Zuitt Coding Bootcamp and taught me a lot about HTML & CSS!</p>
+
+							<p class="lead text-justify">My main focus these days is building accessible, inclusive products and digital experiences for my future clients.</p>
 						</div>
 						<div class="mb-5 col-sm-12 col-m-6 col-lg-6 order-1 order-lg-2">
 							<img src="./image/jazzrell-pic.jpg" class="img-fluid rounded-circle" id="picture">
@@ -71,45 +79,57 @@
 				</div>
 
 				<!-- Tools Section Start -->
-				<div class="container-fluid text-light min-vh-100 p-3 p-md-5"  id="bg-tools">
+				<div class="container-fluid text-light p-3 p-md-5"  id="bg-tools">
 					
 					<div class="row justify-content-around align-items-center">
 						
-						<div class="jumbotron col-sm-12 col-m-6 col-lg-6 order-2 rounded" id="section-bg">
-							<h5 class="text-primary text-left ml-4">This is a Text</h5>
-							<p>Core Tools</p>
-						</div>
-						<div class="col-md-6 col-12 order-1 order-md-2 bg-white rounded text-dark p-0">
-						<ul id="tools" class="pt-5">
-							<h2 class="text-dark">CORE TOOLS</h2>
-							<li><img id="img-logo" class="img-fluid" src="./image/logo-html5.png"></li>
-							<div class="d-flex justify-content-center">
-								<li><img id="img-logo" class="img-fluid" src="./image/logo-css3.png"></li>
-								<li><img id="img-logo" class="img-fluid" src="./image/logo-javascript.png"></li></div> 
+						<div class="col-sm-12 col-m-4 col-lg-6 order-2 rounded" id="tool-section">
+							<h5 class="text-white text-left ml-4 lead pt-4">Working with my hands to make magic happen on the internet. </h5>
+							<p class="pb-2">Here are a few technologies I’ve been working with recently:</p>
+							<h3>Core Tools:</h3>
+							<p>HTML | CSS3 | Javascript</p>
+							<h3>Other Tools:</h3>
+							<p>Git | Gitlab | Sublime Text 3 | Postman</p>
+							<p>Heroku | MongoDB | ExpressJS | React | NodeJS</p>
+							<blockquote class="blockquote pt-5 pb-5">
+								<p class="mb-0 font-italic">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</p>
+							</blockquote>
 
-								<h2 class="text-dark">Other Tools</h2>
-								<div class="d-md-block d-flex justify-content-center">
-									<div>
-										<img id="img-logo" src="./image/logo-mongodb.png"/>
-										<img id="img-logo" src="./image/logo-nodejs.png"/>
-										<img id="img-logo" src="./image/logo-expressjs.png"/>
-										<img id="img-logo" src="./image/logo-react.png"/>
-										<img id="img-logo" src="./image/logo-heroku.png"/>
+						</div>
+
+						<div class="col-md-5 col-12 order-1 order-md-2 bg-white rounded text-dark p-0" id="core-tools">
+							<ul id="tools" class="pt-5">
+
+								<h2 class="text-dark" >CORE TOOLS</h2>
+
+								<li><img id="img-logo" class="img-fluid" src="./image/logo-html5.png"></li>
+								<div class="d-flex justify-content-center">
+									<li><img id="img-logo" class="img-fluid" src="./image/logo-css3.png"></li>
+									<li><img id="img-logo" class="img-fluid" src="./image/logo-javascript.png"></li></div> 
+
+									<h2 class="text-dark">Other Tools</h2>
+									<div class="d-md-block d-flex justify-content-center">
+										<div>
+											<img id="img-logo" src="./image/logo-mongodb.png"/>
+											<img id="img-logo" src="./image/logo-nodejs.png"/>
+											<img id="img-logo" src="./image/logo-expressjs.png"/>
+											<img id="img-logo" src="./image/logo-react.png"/>
+											<img id="img-logo" src="./image/logo-heroku.png"/>
+										</div>
+										<div class="">
+											<img id="img-logo" src="./image/logo-git.png"/>
+											<img id="img-logo" src="./image/logo-sublime-text-3.png"/>
+											<img id="img-logo" src="./image/logo-postman.png"/>
+											<img id="img-logo" src="./image/logo-gitlab-ci-cd.png"/>
+										</div>
 									</div>
-									<div class="">
-										<img id="img-logo" src="./image/logo-git.png"/>
-										<img id="img-logo" src="./image/logo-sublime-text-3.png"/>
-										<img id="img-logo" src="./image/logo-postman.png"/>
-										<img id="img-logo" src="./image/logo-gitlab-ci-cd.png"/>
-									</div>
-								</div>
-							</ul>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
 
 
-			
+
 
 
 					<!-- Profile Section End -->
@@ -117,7 +137,7 @@
 
 					<!-- Other Projects Section Start -->
 					<div class="text-light min-vh-100 p-5" id="project-section">
-						<h2 class="mb-3">Other Projects</h2>
+						<h2 class="mb-3 text-dark mb-5">Other Projects</h2>
 
 						<div class="card-deck">
 							<div class="card bg-dark">
@@ -153,90 +173,99 @@
 
 
 					<!-- Contact Form Section Start -->
-					<div class="container-fluid bg-dark min-vh-100 p-5">
+					<div class="container-fluid bg-dark min-vh-100 p-5" id="contacts">
 						<div class="row">
-							<div class="col-sm-12 col-md-6 col-lg-6 rounded text-light order-2 order-md-1 mt-5" id="section-bg">
-								<h5">Hi, my name is</h5>
-									<h1>Jazzrell Frian P. Abad</h1>
-									<h3 >Full-stack Web Developer</h3>
-									<p>Passionate about Full-Stack Development, skilled and experienced in HTML, CSS, Bootstrap Framework.</p>
-								</div>
-								<div class="container-fluid col-md-6 order-1 order-md-2">
-									<h2 class="text-light mt-2 ml-md-5 pl-4">Contact Me</h2>
-									<div class="row mt-2 ml-md-5">
-										<form class="col-12 p-3 rounded" id="form-bg">
-											<div class="form-group">
-												<label class="text-light" for="name">Name:</label>
-												<input type="text" class="form-control" id="name" placeholder="Juan Dela Cruz">
-											</div>
-											<div class="form-group">
-												<label class="text-light" for="exampleInputEmail1">Email address:</label>
-												<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
-											</div>
-											<div class="form-group">
-												<label class="text-light" for="contact">Contact Number:</label>
-												<input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
-											</div>
-											<div>
-												<label class="text-light" for="concern">Concern</label>
-												<select class="form-control" id="concern">
-													<option>NA</option>
-													<option>Quotation</option>
-													<option>Appointment</option>
-													<option>Follow-up</option>
-												</select>
-											</div>
-											<div class="form-group">
-												<label class="text-light">Message:</label>
-												<textarea class="form-control" id="message" rows="7"></textarea>
-											</div>
-											<button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
-										</form>
-									</div>
+							<div class="col-sm-12 col-md-6 col-lg-6 rounded text-light order-2 order-md-1 mt-5 text-left" id="section-bg">
+								
+								<h1>Get In Touch</h1>
+								<p>Passionate about Full-Stack Development, skilled and experienced in HTML, CSS, Bootstrap Framework.</p>
+								<div class="social-media d-lg-flex flex-column">
+
+									<a href="mailto: abadjazzrell@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> Email Me</a>
+									<a href="https://www.facebook.com/abadjazzrell" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+									<a href="https://www.linkedin.com/in/jazzrellfrian-abad/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+									<a href="https://gitlab.com/abadjazzrell" target="_blank"><i class="fa-brands fa-gitlab"></i> Gitlab</a>
+									<a href="" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+									<a href="https://www.instagram.com/jazzrell.abad/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+									<a href="https://www.instagram.com/jazzrell.abad/?next=%2F" target="_blank"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
 								</div>
 							</div>
-						</div>	
-						<!-- Contact Form Section End -->
 
-						<!-- Modal Start -->
-						<div>
-							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title">Thank you for contacting us!</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
+							<div class="container-fluid col-md-6 order-1 order-md-2">
+								<h2 class="text-light mt-2 ml-md-5 pl-4">Contact Me</h2>
+								<div class="row mt-2 ml-md-5">
+									<form class="col-12 p-3 rounded" id="form-bg">
+										<div class="form-group">
+											<label class="text-light" for="name">Name:</label>
+											<input type="text" class="form-control" id="name" placeholder="Juan Dela Cruz">
 										</div>
-										<div class="modal-body">
-											<p>Message Successfully Sent!</p>
+										<div class="form-group">
+											<label class="text-light" for="exampleInputEmail1">Email address:</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
 										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<div class="form-group">
+											<label class="text-light" for="contact">Contact Number:</label>
+											<input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
 										</div>
-									</div>
+										<div>
+											<label class="text-light" for="concern">Concern</label>
+											<select class="form-control" id="concern">
+												<option>NA</option>
+												<option>Quotation</option>
+												<option>Appointment</option>
+												<option>Follow-up</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label class="text-light">Message:</label>
+											<textarea class="form-control" id="message" rows="7"></textarea>
+										</div>
+										<button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+									</form>
 								</div>
 							</div>
 						</div>
-						<!-- Modal End -->
+					</div>	
+					<!-- Contact Form Section End -->
 
+					<!-- Modal -->
+					<div id="exampleModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
 
+							<!-- Modal content-->
+							<div class="modal-content" id="bg-modal">
+								<div class="modal-header">
+									<h5 class="modal-title" >Thank you for contacting us!</h5>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									
+								</div>
+								<div class="modal-body mt-5 mb-5" >
+									<p>Message Successfully Sent!</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
 					</div>
-					<!-- Side Content Section End -->
 
 
 				</div>
+				<!-- Side Content Section End -->
+
+
 			</div>
-			<!-- Main Content Section End -->
+		</div>
+		<!-- Main Content Section End -->
 
 
 
 
 
-			<!-- Bootstrap Javascript Plugin -->
-			<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<!-- Bootstrap Javascript Plugin -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-		</body>
-		</html>
+	</body>
+	</html>

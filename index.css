@@ -47,7 +47,7 @@ body {
 }
 
 #form-bg {
-	background-color: #6096ba;
+	background-color: #335c67;
 }
 
 #project-section {
@@ -69,11 +69,18 @@ body {
 }
 
 #bg-tools {
-	background-color: #2f3e46;
+	background-color: #212529;
 }
 
+#tool-section {
+	background-color: #495057;
+	margin-right: ;
+}
 
-
+#bg-modal {
+	background-color: #adb5bd;
+	color: #00296b;
+}
 
 
 /*Responsive for screen size*/
@@ -85,3 +92,15 @@ body {
 
 }
 
+
+/*Social media Icons*/
+.social-media a {
+	color: white;
+	font-size: 2rem;
+	text-decoration: none;
+
+}
+.social-media a:hover {
+	color: #e36414;
+
+}
