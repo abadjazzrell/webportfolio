@@ -28,6 +28,11 @@ body {
 	text-transform: uppercase;
 }
 
+#nav-hover:hover {
+	color: #ffba08 !important;
+	border: 1px solid #ffba08;	
+}
+
 #bg-image {
 	background-image: url(./image/jazzrell-bg.jpg);
   	background-repeat : no-repeat;
@@ -38,6 +43,13 @@ body {
 
 #section-bg {
 	background-color: rgba(0, 0, 0, .5);
+}
+
+.name {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #06d6a0;
 }
 
 #picture {
@@ -103,6 +115,10 @@ body {
 
 .social-media a:hover {
 	color: #e36414;
+}
+
+#social {
+	display: inline-block;
 }
 
 
