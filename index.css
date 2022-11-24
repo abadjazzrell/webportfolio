@@ -70,14 +70,16 @@ body {
 	list-style: none;
 }
 
+
+
 #container-tools {
 	background-color: #354f52;
  padding-bottom: 150px;
 }
 
 #img-logo {
-	height: 15vh;
-	width: 15vh;
+	height: 10vh;
+	width: 10vh;
 }
 
 #bg-tools {
