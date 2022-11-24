@@ -96,11 +96,28 @@ body {
 /*Social media Icons*/
 .social-media a {
 	color: white;
-	font-size: 2rem;
+	font-size: 1.2rem;
 	text-decoration: none;
-
 }
+
+
 .social-media a:hover {
 	color: #e36414;
+}
+
+
+#contact-title {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+#contact-title-1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.copyright {
+	background-color: black;
+	color: grey;
 
 }
